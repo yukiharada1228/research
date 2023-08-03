@@ -1,0 +1,14 @@
+version: '3'
+services:
+  research:
+    image: nvcr.io/nvidia/pytorch:23.06-py3
+    volumes:
+      - ./:/workspace
+    tty: true
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           capabilities: [gpu]
+    # shm_size: '24gb'

@@ -1,0 +1,3 @@
+[submodule "scripts/SimSiam-91.9-top1-acc-on-CIFAR10"]
+	path = scripts/SimSiam-91.9-top1-acc-on-CIFAR10
+	url = https://github.com/yukiharada1228/SimSiam-91.9-top1-acc-on-CIFAR10.git
